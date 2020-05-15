@@ -6,12 +6,12 @@ def max_num(num1, num2, num3):
         return num2
     else:
         return num3
-
-
+    
 print(max_num(30, 4, 57))
 
+
 # new code starts here
-# float immediately converts into a no instead of the conventional string
+# float immediately converts into a number instead of the conventional string
 num1 = float(input("Enter first no: "))
 op = input("Enter operator: ")
 num2 = float(input("Enter second number: "))
